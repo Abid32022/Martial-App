@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
       // designSize: const Size(384, 812),
       builder: (context, child) {
         return GetMaterialApp(
+          title: 'Martial App',
           theme: ThemeData(
             primaryColor: AppColors.Background,
             fontFamily: 'EnnVisions',
